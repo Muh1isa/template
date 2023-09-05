@@ -13,4 +13,92 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+span {
+  color: #D8160C;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav .fa-bars {
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 6px 7px;
+}
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header__nav-list-item {
+  list-style: none;
+  color: #000;
+}
+.header__nav-box {
+  font-size: 12px;
+  text-align: center;
+}
+.header__nav-box span {
+  font-size: 24px;
+}
+.header__nav-icons {
+  font-size: 12px;
+  text-align: center;
+}
+.header__nav-icons .fa-brands {
+  font-size: 20px;
+  margin: 0 15px 0 0;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 3px 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .header__nav {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .header__nav {
+    width: 100%;
+  }
+  .header__nav-list {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .header__nav {
+    width: 100%;
+  }
+  .header__nav-list, .header__nav .fa-bars, .header__nav-icons {
+    display: none;
+  }
+  .header__nav-box {
+    font-size: 10px;
+    text-align: center;
+  }
+  .header__nav-box span {
+    font-size: 20px;
+  }
+  .header__nav-link img {
+    width: 140px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
