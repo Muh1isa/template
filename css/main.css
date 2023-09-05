@@ -414,4 +414,23 @@ span {
   margin: 0 0 0 45px;
 }
 
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.footer__nav-btn {
+  font-size: 18px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.footer__nav-icons {
+  display: flex;
+}
+.footer__nav a {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
