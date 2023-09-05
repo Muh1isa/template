@@ -316,4 +316,51 @@ span {
   padding: 17px 60px;
 }
 
+.section3__top {
+  height: 250px;
+  padding: 40px 0;
+}
+.section3__top-title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.section3__top input {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+}
+.section3__middle {
+  height: 270px;
+  background-color: #F5F5F5;
+  padding: 40px 0;
+}
+.section3__middle-title {
+  width: 950px;
+  text-align: center;
+  margin: 0 0 30px 200px;
+}
+.section3__middle-btn {
+  font-size: 20px;
+  color: #fff;
+  background-color: #48C95F;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 66px;
+  padding: 20px 45px;
+  margin: 0 0 0 420px;
+}
+.section3__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  padding: 50px 0;
+  margin: 100px auto;
+}
+.section3__bottom-title {
+  width: 800px;
+}
+
 /*# sourceMappingURL=main.css.map */
