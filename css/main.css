@@ -363,4 +363,55 @@ span {
   width: 800px;
 }
 
+.section4__top {
+  height: 500px;
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+.section4__top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section4__top-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0;
+}
+.section4__top-wrapper h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.section4__top-wrapper h3 span {
+  font-size: 55px;
+  font-weight: 700;
+}
+.section4__top-btn {
+  font-size: 20px;
+  color: #fff;
+  background-color: #D8160C;
+  border: none;
+  border-radius: 30px;
+  padding: 17px 45px;
+}
+.section4__bottom {
+  height: 400px;
+  padding: 50px 0;
+  margin: 80px auto;
+}
+.section4__bottom-title {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+.section4__bottom-text {
+  width: 1200px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 0 0 0 45px;
+}
+
 /*# sourceMappingURL=main.css.map */
