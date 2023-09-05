@@ -21,3 +21,14 @@ a {
 span {
     color: #D8160C;
 }
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
