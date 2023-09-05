@@ -36,10 +36,13 @@
     }
     &__hero {
         height: 580px;
-        background-color: lightgray;
         background-image: url(../../images/header\ bg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        .extra {
+            background-color: rgba($color: #f1f1f1, $alpha: 0.9);
+            height: 580px;
+        }
         &-wrapper {
             display: flex;
             justify-content: space-between;
@@ -59,7 +62,7 @@
             padding: 15px 32px;
             margin: 40px 0 100px 0;
         }
-        &-left-wrapper {
+        &-left-box {
             display: flex;
             gap: 40px;
         }
@@ -100,7 +103,7 @@
             h1 {
                 font-size: 45px;
             }
-            &-left-wrapper {
+            &-left-box {
                 gap: 20px;
             }
             &-right {
@@ -132,18 +135,35 @@
         &__hero {
             width: 100%;
             padding: 10px;
+            box-sizing: border-box;
+            &-wrapper {
+                align-items: flex-start;
+            }
+            &-left {
+                display: flex;
+                flex-wrap: wrap;
+                width: 480px;
+            }
             h1 {
                 font-size: 28px;
                 width: 280px;
             }
-            &-left-wrapper {
-                display: block;
+            &-btn {
+                width: 100%;
+                font-size: 14px;
+                padding: 15px 10px;
+                order: 4;
+                margin: 120px 0 0 0;
+            }
+            &-left-box {
+                display: block; 
+                margin: 40px 0 0 0;
             }
             &-right {
-                margin: 70px 0 0 -80px;
+                margin: 0 0 0 -160px;
             }
             &-img {
-                width: 330px;
+                width: 300px;
                 height: 580px;
             }
         }
@@ -174,6 +194,35 @@
         &__hero {
             width: 100%;
             padding: 10px;
+            &-wrapper {
+                align-items: flex-start;
+            }
+            &-left {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            h1 {
+                font-size: 28px;
+                width: 280px;
+            }
+            &-btn {
+                width: 340px;
+                font-size: 14px;
+                padding: 15px 10px;
+                order: 4;
+                margin: 120px 0 0 0;
+            }
+            &-left-box {
+                display: block; 
+                margin: 40px 0 0 0;
+            }
+            &-right {
+                margin: 0 0 0 -250px;
+            }
+            &-img {
+                width: 300px;
+                height: 580px;
+            }
         }
     }
 }

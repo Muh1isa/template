@@ -1,0 +1,39 @@
+.section1 {
+    &__top, &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 80px 0;
+    }
+    &__right {
+        margin: 0 0 0 100px;
+    }
+    &__left {
+        margin: 0 -250px 0 0;
+    }
+    &__title {
+        width: 550px;
+        margin: 0 0 30px 0;
+    }
+    &__list {
+        &-item {
+            width: 600px;
+            font-size: 18px;
+            margin: 0 0 30px 0;
+        }
+        &-item2 {
+            width: 330px;
+            font-size: 18px;
+            line-height: 22px;
+            margin: 0 0 30px 0;
+        }
+    }
+    &__img-wrapper {
+        margin: 40px 0 20px 0;
+    }
+    &__text {
+        font-size: 18px;
+        color: #D8160C;
+        margin: 40px 0 0 0;
+    }
+}
