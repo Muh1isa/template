@@ -18,6 +18,10 @@ a {
   color: #000;
 }
 
+li {
+  font-size: 18px;
+}
+
 span {
   color: #D8160C;
 }
@@ -271,12 +275,10 @@ span {
 }
 .section1__list-item {
   width: 600px;
-  font-size: 18px;
   margin: 0 0 30px 0;
 }
 .section1__list-item2 {
   width: 330px;
-  font-size: 18px;
   line-height: 22px;
   margin: 0 0 30px 0;
 }
@@ -287,6 +289,31 @@ span {
   font-size: 18px;
   color: #D8160C;
   margin: 40px 0 0 0;
+}
+
+.section2 {
+  height: 520px;
+  background-color: #F5F5F5;
+  padding: 60px 0;
+}
+.section2 .container {
+  display: flex;
+  justify-content: space-between;
+}
+.section2__list {
+  margin: 30px 0 0 0;
+}
+.section2__list-item {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.section2__btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: #D8160C;
+  border: none;
+  border-radius: 30px;
+  padding: 17px 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
