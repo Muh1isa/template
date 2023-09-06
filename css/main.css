@@ -20,6 +20,7 @@ a {
 
 li {
   font-size: 18px;
+  list-style: none;
 }
 
 span {
@@ -260,7 +261,7 @@ span {
 .section1__top, .section1__bottom {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 80px 0;
 }
 .section1__right {
@@ -273,14 +274,34 @@ span {
   width: 550px;
   margin: 0 0 30px 0;
 }
-.section1__list-item {
+.section1__list-item, .section1__list .item {
+  position: relative;
   width: 600px;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px 25px;
+}
+.section1__list-item::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #D8160C;
+  border-radius: 50%;
+  left: -25px;
 }
 .section1__list-item2 {
-  width: 330px;
+  position: relative;
+  width: 350px;
   line-height: 22px;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px 25px;
+}
+.section1__list-item2::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #D8160C;
+  border-radius: 50%;
+  left: -20px;
 }
 .section1__img-wrapper {
   margin: 40px 0 20px 0;
@@ -304,8 +325,19 @@ span {
   margin: 30px 0 0 0;
 }
 .section2__list-item {
+  position: relative;
   font-size: 20px;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 30px;
+}
+.section2__list-item::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #D8160C;
+  border-radius: 50%;
+  left: -25px;
+  top: 4px;
 }
 .section2__btn {
   font-size: 18px;

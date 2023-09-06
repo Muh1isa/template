@@ -2,7 +2,7 @@
     &__top, &__bottom {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         margin: 80px 0;
     }
     &__right {
@@ -16,15 +16,35 @@
         margin: 0 0 30px 0;
     }
     &__list {
-        &-item {
+        &-item, .item {
+            position: relative;
             width: 600px;
-            margin: 0 0 30px 0;
+            margin: 0 0 30px 25px;
         }
+        &-item::before {
+            position: absolute;
+            content: "";
+            width: 16px;
+            height: 16px;
+            background-color: #D8160C;
+            border-radius: 50%;
+            left: -25px;
+        } 
         &-item2 {
-            width: 330px;
+            position: relative;
+            width: 350px;
             line-height: 22px;
-            margin: 0 0 30px 0;
+            margin: 0 0 30px 25px;
         }
+        &-item2::before {
+            position: absolute;
+            content: "";
+            width: 16px;
+            height: 16px;
+            background-color: #D8160C;
+            border-radius: 50%;
+            left: -20px;
+        } 
     }
     &__img-wrapper {
         margin: 40px 0 20px 0;
